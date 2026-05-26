@@ -18,10 +18,10 @@
     "lint": "eslint \"component/**/*\" \"pages/**/*\" \"payload/**/*\" \"*.ts\" --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://JiwonBlue.github.io/resume-nextjs",
+  "homepage": "https://JiwonBlue.github.io",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JiwonBlue/resume-nextjs.git"
+    "url": "git+https://github.com/JiwonBlue/JiwonBlue.github.io.git"
   },
   "keywords": [
     "resume",

@@ -65,7 +65,7 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
-      title: '개발 환경 고도화 및 도구 현대화',
+      title: '개발 환경 고도화 및 도구 고도화',
       descriptions: [
         {
           content:

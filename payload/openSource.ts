@@ -47,7 +47,7 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
-      title: '시스템 자동화 및 비즈니스 편의성 고도화',
+      title: '비즈니스 편의성 고도화',
       descriptions: [
         {
           content:
@@ -65,7 +65,7 @@ const openSource: IOpenSource.Payload = {
       ],
     },
     {
-      title: '개발 환경 고도화 및 도구 고도화',
+      title: '개발 환경 고도화 및 개선',
       descriptions: [
         {
           content:

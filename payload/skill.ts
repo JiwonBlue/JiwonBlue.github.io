@@ -15,8 +15,8 @@ const frontend: ISkill.Skill = {
   category: 'Frontend',
   items: [
     { title: 'JavaScript (ES6+)', level: 3 },
-    { title: 'AngularJS', level: 3 },
-    { title: 'Vue.js', level: 2 },
+    { title: 'AngularJS', level: 2 },
+    { title: 'Vue.js', level: 1 },
     { title: 'Grunt', level: 2 },
   ],
 };
@@ -26,7 +26,7 @@ const database: ISkill.Skill = {
   items: [
     { title: 'Oracle', level: 3 },
     { title: 'MS-SQL', level: 3 },
-    { title: 'SQLite', level: 2 },
+    { title: 'SQLite', level: 3 },
   ],
 };
 
@@ -36,16 +36,16 @@ const devopsAndEtc: ISkill.Skill = {
     { title: 'Git', level: 3 },
     { title: 'Docker / Docker-Compose', level: 2 },
     { title: 'Tomcat / JEUS', level: 3 },
-    { title: 'Maven', level: 2 },
-    { title: 'InstallShield', level: 2 },
-    { title: 'Android Studio', level: 2 },
+    { title: 'Maven', level: 3 },
+    { title: 'InstallShield', level: 1 },
+    { title: 'Android Studio', level: 1 },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
   skills: [backend, frontend, database, devopsAndEtc],
-  tooltip: '1: 기초 수준\n2: 숙련된 활용 가능\n3: Production 수준 최적화 및 리드 가능',
+  tooltip: '1: 기초 수준\n2: 활용 가능\n3: 숙련된 활용 가능',
 };
 
 export default skill;

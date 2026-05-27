@@ -7,7 +7,7 @@ const profile: IProfile.Payload = {
   image: 'asset/김지원.jpg',
   name: {
     title: '김지원',
-    small: '(Full-Stack Developer)',
+    small: '(Backend Developer)',
   },
   contact: [
     {
@@ -25,7 +25,7 @@ const profile: IProfile.Payload = {
     },
   ],
   notice: {
-    title: '솔루션 개발 및 유지보수를 진행해 온 주니어 개발자입니다.',
+    title: '메일, 전화 편하신 곳으로 연락 부탁드립니다.',
     icon: faBell,
   },
 };

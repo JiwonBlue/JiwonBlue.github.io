@@ -18,7 +18,7 @@ const education: IEducation.Payload = {
     },
     {
       title: '서서울 생활과학 고등학교',
-      subTitle: '졸업',
+      subTitle: ' ',
       startedAt: '2013-03',
       endedAt: '2016-02',
     },

@@ -19,7 +19,7 @@ const personalProject: IPersonalProject.Payload = {
         },
         {
           content:
-            '순수 HTML/CSS/JS 로컬 환경에서 빠른 퍼블리싱 작업, UI/UX 검토, 브라우저 호환성 테스트 진행',
+            '바이브 코딩으로 로컬 환경에서 빠른 퍼블리싱 작업, UI/UX 검토 및 다양한 디바이스 해상도(반응형) 테스트 진행',
         },
         {
           content:

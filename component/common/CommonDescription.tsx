@@ -81,29 +81,31 @@ function Description({ description }: PropsWithChildren<{ description: IRow.Desc
     if (postHref && postImage) {
       return (
         <li style={getFontWeight(weight)}>
-          {content} <HrefTargetBlank url={postHref} text={postHref} />{' '}
-          <img src={postImage} alt={postImage} />
+          <span dangerouslySetInnerHTML={{ __html: content }} />{' '}
+          <HrefTargetBlank url={postHref} text={postHref} /> <img src={postImage} alt={postImage} />
         </li>
       );
     }
     if (postHref) {
       return (
         <li style={getFontWeight(weight)}>
-          {content} <HrefTargetBlank url={postHref} text={postHref} />
+          <span dangerouslySetInnerHTML={{ __html: content }} />{' '}
+          <HrefTargetBlank url={postHref} text={postHref} />
         </li>
       );
     }
     if (postImage) {
       return (
         <li style={getFontWeight(weight)}>
-          {content} <img src={postImage} alt={postImage} />
+          <span dangerouslySetInnerHTML={{ __html: content }} />{' '}
+          <img src={postImage} alt={postImage} />
         </li>
       );
     }
     return (
       <>
         <meta name="format-detection" content="telephone=no" />
-        <li style={getFontWeight(weight)}>{content}</li>
+        <li style={getFontWeight(weight)} dangerouslySetInnerHTML={{ __html: content }} />
       </>
     );
   })();

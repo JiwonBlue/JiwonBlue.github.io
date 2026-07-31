@@ -14,13 +14,16 @@ const personalProject: IPersonalProject.Payload = {
           postHref: 'https://vacode00.cafe24.com/',
         },
         {
-          content: '디자이너와 협업하며 로컬 개발용 파일과 카페24 업로드용 스킨 파일 두 가지 버전으로 관리',
+          content:
+            '디자이너와 협업하며 로컬 개발용 파일과 카페24 업로드용 스킨 파일 두 가지 버전으로 관리',
         },
         {
-          content: '순수 HTML/CSS/JS 로컬 환경에서 빠른 퍼블리싱 작업, UI/UX 검토, 브라우저 호환성 테스트 진행',
+          content:
+            '순수 HTML/CSS/JS 로컬 환경에서 빠른 퍼블리싱 작업, UI/UX 검토, 브라우저 호환성 테스트 진행',
         },
         {
-          content: '로컬 퍼블리싱 완료 코드를 바탕으로 카페24 스마트디자인 전용 태그와 모듈 코드 결합',
+          content:
+            '로컬 퍼블리싱 완료 코드를 바탕으로 카페24 스마트디자인 전용 태그와 모듈 코드 결합',
         },
         {
           content: 'GitHub 레포지토리: ',

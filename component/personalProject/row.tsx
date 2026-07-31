@@ -6,7 +6,9 @@ import { IRow } from '../common/IRow';
 import Util from '../common/Util';
 import { EmptyRowCol } from '../common';
 
-export default function PersonalProjectRow({ payload }: PropsWithChildren<{ payload: IPersonalProject.Payload }>) {
+export default function PersonalProjectRow({
+  payload,
+}: PropsWithChildren<{ payload: IPersonalProject.Payload }>) {
   return (
     <EmptyRowCol>
       {payload.list.map((item, index) => {

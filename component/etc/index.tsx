@@ -22,7 +22,7 @@ export const Etc = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="ETC">
+    <CommonSection title="자격증">
       <EducationRow payload={payload} />
     </CommonSection>
   );
@@ -34,6 +34,7 @@ function EducationRow({ payload }: PropsWithChildren<{ payload: Payload }>) {
       {payload.list.map((item, index) => {
         return <CommonRows key={index.toString()} payload={serialize(item)} index={index} />;
       })}
+      <div className="pb-3" />
     </EmptyRowCol>
   );
 }

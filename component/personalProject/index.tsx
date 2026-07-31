@@ -1,12 +1,12 @@
 import { PropsWithChildren } from 'react';
-import ProjectRow from './row';
+import PersonalProjectRow from './row';
 import { CommonSection } from '../common/CommonSection';
-import { IProject } from './IProject';
+import { IPersonalProject } from './IPersonalProject';
 import { PreProcessingComponent } from '../common/PreProcessingComponent';
 
-type Payload = IProject.Payload;
+type Payload = IPersonalProject.Payload;
 
-export const Project = {
+export const PersonalProject = {
   Component: ({ payload }: PropsWithChildren<{ payload: Payload }>) => {
     return PreProcessingComponent<Payload>({
       payload,
@@ -17,8 +17,8 @@ export const Project = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="주요 업무 프로젝트">
-      <ProjectRow payload={payload} />
+    <CommonSection title="외주 및 토이 프로젝트">
+      <PersonalProjectRow payload={payload} />
     </CommonSection>
   );
 }

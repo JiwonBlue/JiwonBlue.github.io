@@ -4,6 +4,17 @@ const openSource: IOpenSource.Payload = {
   disable: false,
   list: [
     {
+      title: 'AI를 활용한 업무 생산성 향상',
+      descriptions: [
+        {
+          content: 'Antigravity IDE / Gemini, GPT 사용으로 깔끔한 프롬포트를 통해 솔루션 커스텀 작업 속도 향상',
+        },
+        {
+          content: 'Gemini Gem을 이용해 레퍼런스 github 분석, 구글 워크스페이스 컨트롤 등 다양한 작업 간편화',
+        },
+      ],
+    },
+    {
       title: '대용량 결재 및 조회 성능 최적화',
       descriptions: [
         {

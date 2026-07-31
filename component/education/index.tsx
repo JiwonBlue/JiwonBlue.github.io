@@ -22,7 +22,7 @@ export const Education = {
 
 function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   return (
-    <CommonSection title="EDUCATION">
+    <CommonSection title="학력 사항">
       <EducationRow payload={payload} />
     </CommonSection>
   );
@@ -34,6 +34,7 @@ function EducationRow({ payload }: PropsWithChildren<{ payload: Payload }>) {
       {payload.list.map((item, index) => {
         return <CommonRows key={index.toString()} payload={serialize(item)} index={index} />;
       })}
+      <div className="pb-3" />
     </EmptyRowCol>
   );
 }

@@ -9,7 +9,7 @@ const introduce: IIntroduce.Payload = {
     '단순한 기능 구현을 넘어, 항상 사용자의 입장을 고려하여 비즈니스 가치를 창출하는 데 집중합니다.',
   ],
   sign: '김지원',
-  latestUpdated: '2026-05-27',
+  latestUpdated: '2026-07-31',
 };
 
 export default introduce;

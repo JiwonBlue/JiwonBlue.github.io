@@ -44,5 +44,14 @@ function createNojekyll() {
   console.log(chalk.yellow('shellwork: create docs/.nojekyll done.'));
 }
 
+/**
+ * * copy asset/ to docs/
+ */
+function copyAssets() {
+  shelljs.cp('-R', path.join(__dirname, 'asset'), path.join(__dirname, 'docs/'));
+  console.log(chalk.yellow('shellwork: copy asset/ to docs/ done.'));
+}
+
 createNojekyll();
 judgeCnameCreation();
+copyAssets();

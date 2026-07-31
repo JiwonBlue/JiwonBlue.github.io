@@ -21,11 +21,7 @@ export function CommonRows({
             <Col md={12}>
               <h4 style={Style.gray} dangerouslySetInnerHTML={{ __html: left.title }} />
             </Col>
-            {left.subTitle ? (
-              <Col md={12} dangerouslySetInnerHTML={{ __html: left.subTitle }} />
-            ) : (
-              ''
-            )}
+            {left.subTitle ? <Col md={12}>{left.subTitle}</Col> : ''}
           </Row>
         </Col>
         <Col sm={12} md={9}>

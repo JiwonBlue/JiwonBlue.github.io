@@ -10,16 +10,16 @@ const personalProject: IPersonalProject.Payload = {
       descriptions: [
         {
           content:
-            'Spring AI, 로컬 LLM(Ollama), PgVector를 활용한 권한(ACL) 기반 사내 RAG 챗봇 시스템 개발',
+            'Spring AI, 로컬 LLM(Ollama), PgVector를 활용한 권한 기반 사내 RAG 챗봇 시스템 개발',
         },
         {
-          content: 'Spring WebFlux를 사용한 실시간 SSE(Server-Sent Events) 스트리밍 구현',
+          content: 'Spring WebFlux를 사용한 실시간 SSE 스트리밍 구현',
         },
         {
           content: 'PgVector를 이용한 문서 파싱, 청킹, 임베딩 파이프라인 구축',
         },
         {
-          content: '메타데이터 필터링을 통한 사용자 권한(ACL)별 RAG 구현',
+          content: '메타데이터 필터링을 통한 사용자 권한별 RAG 구현',
         },
         {
           content: 'GitHub 레포지토리: ',

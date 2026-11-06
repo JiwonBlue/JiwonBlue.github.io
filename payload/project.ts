@@ -4,6 +4,21 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: '서울국제금융센터 (SIFC) 자산관리솔루션 마이그레이션 및 납품',
+      startedAt: '2026-10',
+      where: '(주)소프트체인',
+      descriptions: [
+        {
+          content:
+            'DB 마이그레이션 : 기존에 사용하던 CS기반의 PC설치형 프로그램을 웹 솔루션으로 변경하기 위해 DB 마이그레이션 작업',
+        },
+        {
+          content:
+            '요청 커스텀 페이지 구현 : 요청받은 커스텀 페이지 백엔드 - 프론트엔드까지 전부 구현',
+        },
+      ],
+    },
+    {
       title: '고양도시관리공사 AssetCop Lite 패키지 마이그레이션 및 납품',
       startedAt: '2026-01',
       endedAt: '2026-04',
